@@ -172,8 +172,8 @@ $.getJSON(url_sbp, function (data) {
                 "<a href='blog-single.html?blog="+value['blog-id']+"'>"+value.title+"</a></h2>"+
                 "<div class='entry-meta'>"+
                 "<ul>"+
-                "<li class='d-flex align-items-center'><i class='icofont-user'></i> <a href='blog-single.html?blog="+value['blog-id']+">"+a_name+"</a></li>"+
-                "<li class='d-flex align-items-center'><i class='icofont-wall-clock'></i> <a href='blog-single.html?blog="+value['blog-id']+"><time datetime='2020-01-01'>"+value.date+"</time></a></li>"+
+                "<li class='d-flex align-items-center'><i class='icofont-user'></i> <a href='blog-single.html?blog="+value['blog-id']+"'>"+a_name+"</a></li>"+
+                "<li class='d-flex align-items-center'><i class='icofont-wall-clock'></i> <a href='blog-single.html?blog="+value['blog-id']+"'><time datetime='2020-01-01'>"+value.date+"</time></a></li>"+
                 "</ul></div>"+
                 "<div class='entry-content col-md-12'>"+value.content+"</div></article><!-- End blog entry -->"+
                 "<div class='blog-author clearfix'>"+
