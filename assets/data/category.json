@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"category","database":"epiz_30072944_ckeditor","data":
+[
+{"cat-id":"2","cat-name":"SpacePort Stories","cat-image":"maxresdefault.jpg"},
+{"cat-id":"3","cat-name":"Astronomy Outlook","cat-image":"cw.jpg"},
+{"cat-id":"4","cat-name":"Engineering Applications","cat-image":"w.jpg"},
+{"cat-id":"5","cat-name":"Astronomy Art and Poetry","cat-image":"qw.jpg"},
+{"cat-id":"6","cat-name":"Publications","cat-image":"aa.jpg"},
+{"cat-id":"7","cat-name":"Titan Talks","cat-image":"qwe.jpg"}
+]
+}
+]

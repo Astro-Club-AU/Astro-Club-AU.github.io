@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Stellarium</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <style>
+      .night-sky{
+          height: 48vw;
+          width: 100vw;
+          background-color: black;
+          border: 0.1px solid black;
+      }
+     
+      body{
+          overflow: hidden;
+          background-color: black !important;
+      }
+  </style>
+  <!-- Favicons -->
+    <link href="assets/img/astro1.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!--Sweet Alert-->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<script language="Javascript">
+    window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) { 
+        // alert("Visit this on a Computer. Coming soon on Mobile Devices");
+        // window.location.href = "index1.html";
+        
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Not available for Mobile Devices. Coming Soon!'
+        }).then(function() {
+            window.location = "index1.html";
+        });
+
+    } else {
+        var b = document.querySelector("iframe");
+        b.setAttribute("src",'https://stellarium-web.org/');
+    }
+  }
+
+
+  </script>
+
+<body>
+    
+    <div class="col-lg-12" id="parent">
+        <iframe class="night-sky" allowfullscreen>
+        </iframe>
+        <a href="index1.html" class="btn btn-primary" style="margin-right: 8%;">Back to main page</a>
+    </div>
+
+    <script src="assets/js/red.js"></script>
+    <script>
+        var filter = localStorage.filter;
+        if(filter) {
+          document.getElementsByTagName('html')[0].style.filter = filter;
+        }
+    </script>
+</body>
+
+</html>

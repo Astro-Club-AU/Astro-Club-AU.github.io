@@ -1,0 +1,203 @@
+ 
+ --------------------->  index1.html: Alumni 
+ 
+ <div class='row' data-aos='fade-up'>
+    <div class='col-md-5' >
+    <img src='' class='img-fluid' alt='Failed to Load' >
+    </div>
+<div class='col-md-7 pt-4'>
+    <h3>'.$name.'</h3>
+<p class='font-italic'>
+'.$desg.'
+</p>
+    <p>
+    '.$desc.'
+    </p>
+</div>
+</div> 
+
+ <div class='row' data-aos='fade-up'>
+    <div class='col-md-5 order-1 order-md-2'>
+    <img src='' class='img-fluid' alt=''>
+    </div>
+    <div class='col-md-7 pt-5 order-2 order-md-1'>
+    <h3>'.$name.'</h3>
+    <p class='font-italic'>
+        '.$desg.'
+    </p>
+    <p>
+        '.$desc.'
+    </p>
+    </div>
+</div> 
+-----------------------------------------------------------------------------------
+
+<div class='justify-content-center row'>
+    <div class='col-md-6 col-lg-3 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='10'>
+    <div class='icon-box icon-box-cyan'>
+        <div><img src='' class='event-picture'></div>
+        <h4 class='title'><a href=''>'.$name.'</a></h4>
+        <p class='description'>'.$desc.'</p>
+    </div>
+</div>
+
+--------------------------------------------------------------------------------------
+<header id='header' class='header-transparent'>'+
+'<style>@media screen and (max-width: 1199px) {.d-cus-none{display: none !important;/* visibility: hidden; */left: -9999px !important;}.d-lg-none{display: block !important;}}</style>'+
+  '<div class='container'>'+
+    '<div class='logo float-left'>'+
+      '<h1 class='text-light'><a href='index1.php'><span>Astro Club AU</span></a></h1></div>'+
+    '<nav class='nav-menu float-right d-cus-none'>'+
+      '<ul>'+
+        '<li id='h'><a href='index1.php'>Home</a></li>'+
+        '<li id='a'><a href='about.html'>About Us</a></li>'+
+        '<li id='e'><a href='events.php'>Events</a></li>'+
+        '<li id='p'><a href='blog.php'>Proxima Post</a></li>'+
+        '<li id='t'><a href='team.php'>Team</a></li>'+
+        '<li class='drop-down' id='at'><a href=''>Astro Tools</a>'+
+          '<ul>'+
+            '<li><a href='apod.html'>APOD</a></li>'+
+            '<li><a href='stellarium.html'>Stellarium</a></li>'+
+            '<li><a href='solar.html'>Solar System</a></li>'+
+            '<li><a href='star-chart.php'>Cosmic Planisphere</a></li>'+
+            '<li><a href='star-chart.php'>Yearly Events</a></li>'+
+          '</ul>'+
+        '</li>'+
+        '<li id='c'><a href='contact.html'>Contact Us</a></li>'+
+        '<li><a href='javascript:;' class='btn btn-danger spl' id='but' onclick='red_mode()'>Toggle Red Mode</a></li>'+
+      '</ul>'+
+    '</nav><!-- .nav-menu -->'+
+  '</div>'+
+'</header><!-- End Header -->
+
+---------------------------------------------------------------------------------
+----------------->>>>>>>>>>>>>>>> Completed Events
+<div class='col-md-6 d-flex align-items-stretch' data-aos='fade-up'>
+              <div class='card'>
+                <div class='card-img'>
+                  <img src='.$path.' alt='...'>
+                </div>
+                <div class='card-body'>
+                  <h5 class='card-title'><a href='#'>'.$name.'</a></h5>
+                  <p class='card-text'>'.$result_post.'</p>
+                  <div class='read-more'><a href='#Completed' data-toggle='modal' data-target='#Completed'.$id.''><i class='icofont-arrow-right'></i> Read More</a></div>
+                </div>
+              </div>
+            </div> 
+            
+            <div class='modal fade' id='Completed'.$id.'' tabindex='-1' role='dialog' aria-labelledby='exampleModalLongTitle' aria-hidden='true'>
+            <div class='modal-dialog modal-lg modal-dialog-scrollable' >
+              <div class='modal-content'>
+                <div class='modal-header text-center'>
+                  <h3 class='modal-title w-100'  id='exampleModalLongTitle'>'.$name.'</h3>
+                  <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+                    <span aria-hidden='true'>&times;</span>
+                  </button>
+                </div>
+                <div class='modal-body'>
+                  <div class = 'row'>
+                    <div class='col-md-12 justify-content-center' style='text-align:center'><img src='.$path.' alt='...' style='width:95%;padding-bottom:2%'></div>
+                    <div class='col-md-11 mx-auto '><pre class='break'>'.$desc.'</pre></div>
+                  </div>
+
+                </div>
+                <div class='modal-footer'>
+                  <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+----------------------------------------------------------------------------------------------
+<div class='mx-auto col-lg-4 col-md-6 d-flex align-items-stretch'>
+  <div class='member'>
+    <div class='member-img'>
+      <img src='.$path.' class='img-fluid' alt=''>
+      <!-- <div class='social'>
+        <a href=''><i class='icofont-twitter'></i></a>
+        <a href=''><i class='icofont-facebook'></i></a>
+        <a href=''><i class='icofont-instagram'></i></a>
+        <a href=''><i class='icofont-linkedin'></i></a>
+      </div> -->
+    </div>
+    <div class='member-info'>
+      <h4>'.$name.'</h4>
+      <span>'.$desg.'</span>
+      <p>'.$desc.'</p>
+    </div>
+  </div>
+</div>
+--------------------------------------------------------------------------------------------------------
+<article class='entry '.$cn.''>
+    <div class='entry-img' style='text-align:center'>
+      <img src='' alt='' class='img-fluid' width=80%>
+    </div>
+
+    <h2 class='entry-title'>
+      <a href='blog-single.php?blog='.$bid.''>'.$title.'</a>
+    </h2>
+    
+    <div class='entry-meta'>
+  <ul>
+    <li class='d-flex align-items-center'><i class='icofont-user'></i> <a href='blog-single.php?blog='.$bid.''>'.$name.'</a></li>
+    <li class='d-flex align-items-center'><i class='icofont-wall-clock'></i> <a href='blog-single.php?blog='.$bid.''><time datetime='2020-01-01'>'.$date.'</time></a></li>
+  </ul>
+</div>
+<div class='entry-content'>
+  <p>'.$result_post.'</p>
+  <div class='read-more'>
+    <a href='blog-single.php?blog='.$bid.''>Read More</a>
+  </div>
+</div>  
+</article> <!-- End blog entry -->
+------------------------------------------------------------------------------------------------------------
+<article class='entry entry-single'>
+  <div class='entry-img' style='text-align: center;'>
+    <img src=<?php echo $cat_img;?> alt='' class='img-fluid'>
+  </div>
+
+  <h2 class='entry-title'>
+    <a href='blog-single.php?blog=<?php echo $bid_get;?>'>
+    <?php
+    echo $title;
+  ?>
+    </a>
+  </h2>
+
+  <div class='entry-meta'>
+    <ul>
+      <li class='d-flex align-items-center'><i class='icofont-user'></i> <a href='blog-single.php?blog=<?php echo $bid_get;?>'><?php echo $name; ?></a></li>
+      <li class='d-flex align-items-center'><i class='icofont-wall-clock'></i> <a href='blog-single.php?blog=<?php echo $bid_get;?>'><time datetime='2020-01-01'><?php echo $date; ?></time></a></li>
+    </ul>
+  </div>
+
+  <div class='entry-content col-md-12'>
+  <?php
+    echo $contents;
+  ?>
+
+  </div>
+
+
+</article><!-- End blog entry -->
+
+<div class='blog-author clearfix'>
+  <img src='assets/img/blog-author_male.png' class=' float-left' alt=''>
+      <h4> <?php 
+        
+
+        echo $name;
+      
+      
+      ?> </h4>
+    
+  <div class='social-links'>
+    <a href='https://twitters.com/#'><i class='icofont-twitter'></i></a>
+    <a href='https://facebook.com/#'><i class='icofont-facebook'></i></a>
+    <a href='https://instagram.com/#'><i class='icofont-instagram'></i></a>
+  </div>
+  <p>
+    <?php echo $desc; ?>
+  </p>
+</div><!-- End blog author bio -->
+
+-------------------------------------------------------------------------------------------------------

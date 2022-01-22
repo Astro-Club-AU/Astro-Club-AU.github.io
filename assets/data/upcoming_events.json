@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"upcoming_events","database":"epiz_30072944_ckeditor","data":
+[
+{"id":"4","Name":"Lost in Space","Description":"This is an Astronomy and space science Quiz competition hosted on D2C. Participate and win exciting prizes. <br>\r\n<b>Date<\/b> : 26th January 2022, Wednesday <br>\r\n<b>Time :<\/b> 6pm - 8pm <br>\r\n<b>Link to register:<\/b> <a href=\"https:\/\/dare2compete.com\/o\/AjWrwUc?lb=e5FzNRB\">Click Here<\/a><\/p>","Image_name":"Poster112.jpeg"}
+]
+}
+]

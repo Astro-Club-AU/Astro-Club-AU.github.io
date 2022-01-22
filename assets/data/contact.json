@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"contact","database":"epiz_30072944_ckeditor","data":
+[
+{"ID":"1","Name":"Keerthana","Email":"svjk0902@gmail.com","Subject":"Congrats","Message":"Congrats on your new role"}
+]
+}
+]

@@ -1,0 +1,12 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"login","database":"epiz_30072944_ckeditor","data":
+[
+{"Name":"Swadesh","Email":"swadeshbalajee13@gmail.com","Password":"swaSup2M"},
+{"Name":"Ashwin Kumar","Email":"ashwinkumar1381@gmail.com","Password":"qwerty"},
+{"Name":"Ashwath","Email":"ashwath@gmail.com","Password":"swadesh"},
+{"Name":"Contents Team","Email":"astroclubau@gmail.com","Password":"Polaris2020"}
+]
+}
+]

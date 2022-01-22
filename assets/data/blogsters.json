@@ -1,0 +1,16 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"blogsters","database":"epiz_30072944_ckeditor","data":
+[
+{"auth-id":"1","auth-name":"Ashwin Kumar M","Description":"3rd year, Chemical Engineering, ACTech"},
+{"auth-id":"2","auth-name":"Sandhya G","Description":" 3rd year, Chemical Engineering, ACTech"},
+{"auth-id":"3","auth-name":" Sai Krishnan","Description":"3rd year, ECE, CEG"},
+{"auth-id":"4","auth-name":"Sahitya Krishnan","Description":"Alumni, B.E. Industrial Engineering (2017-2021), CEG"},
+{"auth-id":"5","auth-name":"M. Juvairiya Farsana","Description":"3rd year, Geo-informatics, CEG"},
+{"auth-id":"6","auth-name":"Venu Prasad S","Description":"2nd year, Chemical Engineering, ACTech"},
+{"auth-id":"7","auth-name":"Aditi R","Description":"2nd year, Geo-Informatics, CEG"},
+{"auth-id":"8","auth-name":"Harini V.K.","Description":"2nd year, ECE, CEG"}
+]
+}
+]

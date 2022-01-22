@@ -1,0 +1,236 @@
+<?php
+  require_once('db_connect.html');
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Events</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="-1" />
+  
+  <!-- Favicons -->
+    <link href="assets/img/astro1.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+       <!-- ======= Header ======= -->
+ <header id='header' class='fixed-top'>
+  <style>
+      @media screen and (max-width: 1199px) {
+        .d-cus-none{
+        display: none !important;
+        /* visibility: hidden; */
+        left: -9999px !important;
+        }
+        .d-lg-none{
+          display: block !important;
+        }
+      }
+
+    </style>
+    <div class='container'>
+      <div class='logo float-left'>
+        <h1 class='text-light'><a href='index1.html'><span>Astro Club AU</span></a></h1>
+
+      </div>
+
+      <nav class='nav-menu float-right d-cus-none'>
+        <ul>
+          <li id='h'><a href='/index1.html'>Home</a></li>
+          <li id='a'><a href='/about.html'>About Us</a></li>
+          <li id='e'><a href='/events.html'>Events</a></li>
+          <li id='p'><a href='/blog.html'>Proxima Post</a></li>
+          <li id='t'><a href='/team.html'>Team</a></li>
+          <li class='drop-down' id='at'><a href=''>Astro Tools</a>
+            <ul>
+              <li><a href='/apod.html'>APOD</a></li>
+              <li><a href='/stellarium.html'>Stellarium</a></li>
+              <li><a href='/solar.html'>Solar System</a></li>
+              <li><a href='/star-chart.html'>Cosmic Planisphere</a></li>
+              <li><a href='/calendar.html'>Yearly Events</a></li>
+            </ul>
+          </li>
+          <li id='c'><a href='/contact.html'>Contact Us</a></li>
+          <li><a href='javascript:;' class='btn btn-danger spl' id='but' onclick='red_mode()'>Toggle Red Mode</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <main id="main">
+
+    <!-- ======= Our Events Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Our Events</h2>
+          <ol>
+            <li><a href="index1.html">Home</a></li>
+            <li>Our Events</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+   <!-- ======= Upcoming Events Section ======= -->
+   <section class="services">
+    <div class="container" id="upevents">
+      <div class="section-title">
+        <h2>Upcoming Events</h2>
+      </div>
+      
+      </div>
+    </div>
+  </section><!-- End Events Section -->
+
+
+    <!-- ======= Events Details Section ======= -->
+    <section class="service-details">
+      <div class="container">
+        <div class="section-title">
+          <h2>Completed Events</h2>
+        </div>
+        <div class="justify-content-center row" id="comevents">
+          
+         
+        </div> 
+
+      </div>
+      <!-- Modal -->
+
+
+
+
+    </section>
+    <!-- End Service Details Section -->
+
+    
+
+
+  </main><!-- End #main -->
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Register here</h4>
+            <p  style="color:white">Enter your mobile number to be added on Astro Club Whatsapp group. <b>(+91 Only)</b></p>
+          </div>
+          <div class="col-lg-6">
+            <form action="register.html" method="post">
+              <input name="number" type="tel" pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$" required><input type="submit" name="subs" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Proxima Post</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p style="color:white">
+              12, Sardar Patel Rd, <br>
+              Anna University, Guindy, <br>
+              Chennai, Tamil Nadu 600025 <br><br>
+              <strong>Phone:</strong> +91 98842 99162<br>
+              <strong>Email:</strong> astroclubau@gmail.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Astro-Club</h3>
+            <p>Enthusiastic and curious Astrophiles always looking up to the stars and not the ground.</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/astroclubofau" class="facebook"><i class="bx bxl-facebook" target="_blank"></i></a>
+              <a href="https://www.instagram.com/astroclub_au/" class="instagram" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/astro-club-au-012019/" class="linkedin" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/events.js"></script>
+  <script type="text/javascript" src="assets/js/red.js"></script>
+  <script src="assets/js/loadContent.js" type="text/javascript"></script>
+
+   <script>
+    $(document).ready(function() {
+      $('li.active').removeClass('active');
+      $('#e').closest('li').addClass('active');
+      console.log(location.pathname);
+    });
+    var filter = localStorage.filter;
+    if(filter) {
+      document.getElementsByTagName('html')[0].style.filter = filter;
+    }
+  </script>
+</body>
+
+</html>

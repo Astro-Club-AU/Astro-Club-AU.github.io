@@ -1,0 +1,17 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"epiz_30072944_ckeditor"},
+{"type":"table","name":"register","database":"epiz_30072944_ckeditor","data":
+[
+{"ID":"1","Date":"2021-11-12","Number":"9884400048"},
+{"ID":"2","Date":"2021-12-12","Number":"9884400048"},
+{"ID":"3","Date":"2021-12-12","Number":"9884400048"},
+{"ID":"4","Date":"2021-12-12","Number":"9884400048"},
+{"ID":"5","Date":"2021-12-12","Number":"9884400048"},
+{"ID":"6","Date":"2021-12-12","Number":"9884400048"},
+{"ID":"7","Date":"2022-01-20","Number":"9884400048"},
+{"ID":"8","Date":"2022-01-20","Number":"9884400048"},
+{"ID":"9","Date":"2022-01-20","Number":"9884400048"}
+]
+}
+]

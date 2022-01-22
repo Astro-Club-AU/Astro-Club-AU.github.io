@@ -1,0 +1,50 @@
+
+  <!-- ======= Header ======= -->
+  
+  <header id="header" class="fixed-top">
+    <style>
+      @media screen and (max-width: 1199px) {
+        .d-cus-none{
+        display: none !important;
+        /* visibility: hidden; */
+        left: -9999px !important;
+        }
+        .d-lg-none{
+          display: block !important;
+        }
+      }
+
+    </style>
+    <div class="container">
+
+      <div class="logo float-left">
+        <h1 class="text-light"><a href="index1.php"><span>Astro Club AU</span></a></h1>
+        
+      </div>
+
+      <nav class="nav-menu float-right d-cus-none">
+      
+        <ul>
+
+          <li id="h"><a href="index1.php">Home</a></li>
+          <li id="a"><a href="about.html">About Us</a></li>
+          <li id="e"><a href="events.php">Events</a></li>
+          <li id="p"><a href="blog.php">Proxima Post</a></li>
+          <li id="t"><a href="team.php">Team</a></li>
+          <li class="drop-down" id="at"><a href="">Astro Tools</a>
+            <ul>
+              <li><a href="apod.html">APOD</a></li>
+              <li><a href="stellarium.html">Stellarium</a></li>
+              <li><a href="solar.html">Solar System</a></li>
+              <li><a href="star-chart.php">Cosmic Planisphere</a></li>
+              <li><a href="star-chart.php">Yearly Events</a></li>
+            </ul>
+          </li>
+          <li id="c"><a href="contact.html">Contact Us</a></li>
+          <li><a href="javascript:;" class="btn btn-danger spl" id="but" onclick="red_mode()">Toggle Red Mode</a></li>
+         
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
