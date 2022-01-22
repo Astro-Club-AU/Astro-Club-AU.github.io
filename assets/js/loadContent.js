@@ -108,10 +108,12 @@ $.getJSON(url_c, function (data) {
 });
 
 var auth_arr={};
+var auth_desc={};
 var url_auth = "../assets/data/blogsters.json";
 $.getJSON(url_auth,function(data){
     $.each(data[2].data, function (key,value){
         auth_arr[value['auth-id']] = value['auth-name'];
+        auth_desc[value['auth-id']] = value['Description'];
     })
 });
 
@@ -156,9 +158,10 @@ var url_sbp = "../assets/data/blog.json";
 // cat-id auth-id blog-id content Image_name title date
 $.getJSON(url_sbp, function (data) {
     $.each(data[2].data, function (key,value) {
-        var a_name ="";
+        var a_name ="",a_desc="";
         if (value['auth-id'] in auth_arr){
             a_name = auth_arr[value['auth-id']];
+            a_desc = auth_desc[value['auth-id']];
         }
         const urlParams = new URLSearchParams(window.location.search);
         const code = urlParams.get('blog');
@@ -183,7 +186,7 @@ $.getJSON(url_sbp, function (data) {
                 "<a href='https://twitters.com/#'><i class='icofont-twitter'></i></a>"+
                 "<a href='https://facebook.com/#'><i class='icofont-facebook'></i></a>"+
                 "<a href='https://instagram.com/#'><i class='icofont-instagram'></i></a></div>"+
-                "<p>HEHEE</p></div><!-- End blog author bio -->";
+                "<p>"+a_desc+"</p></div><!-- End blog author bio -->";
     }) 
 });
 
