@@ -227,6 +227,6 @@ $("<footer id='footer' data-aos='fade-up' data-aos-easing='ease-in-out' data-aos
           "<a href='https://www.facebook.com/astroclubofau' class='facebook'><i class='bx bxl-facebook' target='_blank'></i></a>"+
           "<a href='https://www.instagram.com/astroclub_au/' class='instagram' target='_blank' rel='noopener noreferrer'><i class='bx bxl-instagram'></i></a>"+
           "<a href='https://www.linkedin.com/in/astro-club-au-012019/' class='linkedin' target='_blank' rel='noopener noreferrer'><i class='bx bxl-linkedin'></i></a>"+
-        "</div></div></div></div></div></footer>").insertBefore(".back-to-top");
+        "</div></div></div></div></div></footer>").insertAfter(".back-to-top");
 
 
