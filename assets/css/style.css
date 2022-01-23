@@ -1597,10 +1597,20 @@ section {
   border-bottom: 2px solid #fff;
   font-family: "Roboto", sans-serif;
 }
+.butn:focus{
+  color: blue;
+}
 
-.efilter-active{
+.eactive{
   color: blue ;
 }
+.show{
+  display: block !important;
+}
+.hide{
+  display: none;
+}
+
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   border-color: #68A4C4;
   color: #68A4C4;
