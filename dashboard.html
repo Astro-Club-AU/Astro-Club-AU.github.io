@@ -51,7 +51,7 @@
           <li><a href="#Author">Author</a></li>
           <li><a href="#Upcoming_Events">Upcoming Events</a></li>
           <li><a href="#Completed_Events">Completed Events</a></li>
-          <li><a href="#Login">Login</a></li>
+          <!-- <li><a href="#Login">Login</a></li> -->
           <li><a href="#Team_Members">Team</a></li>
           <li><a href="#Alumni">Alumni</a></li>
           <li><a href="#Category">Category</a></li>
@@ -128,20 +128,9 @@
                   <th>Description</th>
                 </tr>
               </thead>
-              <tbody>
-                <?php
-                if($result = mysqli_query($con,"SELECT * FROM blogsters")){
+              <tbody id="authors">
+               <!-- Contents OF MODAL -->
 
-                  while($row = mysqli_fetch_array($result)){
-                    echo "<tr>";
-                    echo "<td>". $row['id']. "</td>";
-                    echo "<td>". $row['auth-name']. "</td>";
-                    echo "<td>". $row['Description']. "</td>";
-                    echo "</tr>";
-                  }
-                }
-            
-                ?>
               
               </tbody>
             </table>
@@ -212,21 +201,8 @@
                 <th>Image Name</th>
               </tr>
             </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM upcoming_events")){
-
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr class='utable'>";
-                  echo "<td>". $row['id']. "</td>";
-                  echo "<td>". $row['Name']. "</td>";
-                  echo "<td>". $row['Description']. "</td>";
-                  echo "<td>". $row['Image_name']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
+            <tbody style="overflow:hidden" id="upcom">
+              <!-- Contents OF MODAL -->
             
             </tbody>
           </table>
@@ -297,21 +273,8 @@
                 <th>Image Name</th>
               </tr>
             </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM completed_events")){
-
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr>";
-                  echo "<td>". $row['id']. "</td>";
-                  echo "<td>". $row['Name']. "</td>";
-                  echo "<td>". $row['Description']. "</td>";
-                  echo "<td>". $row['Image_name']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
+            <tbody style="overflow:hidden" id="comp">
+              <!-- Contents OF MODAL -->
             
             </tbody>
           </table>
@@ -331,85 +294,8 @@
       </div>
     </section><!-- End Completed Events section -->
     
-    <section id="Login">
-      
-      <div class="mx-auto details" >
-      <h2 style="text-align: center;">Login</h2>
-        <form method="POST" action="updatedb.php">
-        <div class="form-group">
-            <label for="name">Email</label>
-            <input type="text" name="lemail" class="form-control" id="exampleFormControlInput1" placeholder="Use this to update and delete">
-          </div>
-
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" name="lname" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-          </div>
-          
-
-          <div class="form-group">
-            <label for="name">Password</label>
-            <input type="password" name="lpassword" class="form-control" id="exampleFormControlInput1" placeholder="Password">
-          </div>
-          
-          
-          <button class="btn btn-success" type="submit" name="ladd">Add</button>
-          <button  class="btn btn-dark" type="submit" name="lupdate">Update</button>
-          <button  class="btn btn-danger" type="submit" name="ldelete">Delete</button>
-          <button  type="button" data-toggle="modal" data-target="#lModal"  class="btn btn-primary" name="ldisplay">Display</button>
-        </form>
-        <!-- Login Modal -->
-      <div class="modal" id="lModal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Modal Heading</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-
-              <!-- Modal body -->
-              <div class="modal-body">
-                  <table class="table">
-            <thead>
-              <tr>
-                <th>Email</th>
-                <th>Name</th>
-                <th>Passowrd</th>
-              </tr>
-            </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM login")){
-
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr>";
-                  echo "<td>". $row['Email']. "</td>";
-                  echo "<td>". $row['Name']. "</td>";
-                  echo "<td>". $row['Password']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
-            
-            </tbody>
-          </table>
-          </div>
-
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-
-          </div>
-        </div>
-        </div>
-
-    </div>
-      </div>
-    </section><!-- End New Login section -->
+    
+    <!-- End New Login section -->
 
 
     <section id="Team_Members">
@@ -469,23 +355,10 @@
                 <th>Designation</th>
               </tr>
             </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM team")){
+            <tbody style="overflow:hidden" id="TM">
+              
+              <!-- Contents OF MODAL -->
 
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr>";
-                  echo "<td>". $row['id']. "</td>";
-                  echo "<td>". $row['Name']. "</td>";
-                  echo "<td>". $row['Description']. "</td>";
-                  echo "<td>". $row['Image_name']. "</td>";
-                  echo "<td>". $row['Designation']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
-            
             </tbody>
           </table>
           </div>
@@ -559,23 +432,10 @@
                 <th>Designation</th>
               </tr>
             </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM alumni")){
-
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr>";
-                  echo "<td>". $row['id']. "</td>";
-                  echo "<td>". $row['Name']. "</td>";
-                  echo "<td>". $row['description']. "</td>";
-                  echo "<td>". $row['Image_name']. "</td>";
-                  echo "<td>". $row['Designation']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
+            <tbody style="overflow:hidden" id="alu">
             
+              <!-- Contents OF MODAL -->
+
             </tbody>
           </table>
           </div>
@@ -637,20 +497,9 @@
                 <th>Image Name</th>
               </tr>
             </thead>
-            <tbody style="overflow:hidden">
-              <?php
-              if($result = mysqli_query($con,"SELECT * FROM category")){
-
-                while($row = mysqli_fetch_array($result)){
-                  echo "<tr>";
-                  echo "<td>". $row['cat-id']. "</td>";
-                  echo "<td>". $row['cat-name']. "</td>";
-                  echo "<td>". $row['cat-image']. "</td>";
-                  echo "</tr>";
-                }
-              }
-          
-              ?>
+            <tbody style="overflow:hidden" id="categ">
+              
+              <!-- Contents OF MODAL -->
             
             </tbody>
           </table>
@@ -682,3 +531,4 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/load_dash.js"></script>
