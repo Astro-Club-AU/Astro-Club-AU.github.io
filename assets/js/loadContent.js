@@ -41,8 +41,7 @@ $(document).ready(function() {
     var delay = 10;
     $.getJSON(url_up, function (data) {
         $.each(data[2].data, function (key,value) {
-            document.getElementById('upevents').innerHTML += "<div class='justify-content-center row'>"+
-            "<div class='col-md-6 col-lg-3 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='"+delay+"'>"+
+            document.getElementById('upevents').innerHTML += "<div class='col-md-6 col-lg-3 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='"+delay+"'>"+
             "<div class='icon-box icon-box-cyan'>"+
                 "<div><img src='assets/img/upcoming_events/"+value.Image_name+"' class='event-picture'></div>"+
                 "<h4 class='title'><a href=''>'"+value.Name+"'</a></h4>"+
