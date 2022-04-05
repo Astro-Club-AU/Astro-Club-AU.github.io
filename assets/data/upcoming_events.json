@@ -14,12 +14,6 @@
     "database": "epiz_30072944_ckeditor",
     "data": [
       {
-        "id": "7",
-        "Name": "Coming Soon!",
-        "Description": "We are preparing for exciting events. Stay tuned and visit the page regularly to get our updates.",
-        "Image_name": "coming_soon.jpg"
-      },
-      {
         "id": "8",
         "Name": "Open Call ",
         "Description": "We invite all 1st, 2nd and 3rd years to Open call of Astro Club AU. Here we describe what we do and what plans we have in the future and provide our juniors a warm welcome into the club.",
