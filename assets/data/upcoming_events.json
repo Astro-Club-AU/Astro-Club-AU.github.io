@@ -18,6 +18,12 @@
         "Name": "Open Call ",
         "Description": "We invite all 1st, 2nd and 3rd years to Open call of Astro Club AU. Here we describe what we do and what plans we have in the future and provide our juniors a warm welcome into the club.",
         "Image_name": "OpenCall.jpeg"
+      },
+      {
+        "id": "9",
+        "Name": "Coming Soon",
+        "Description": "We are always here with exciting events. So be tuned and watch out for anouncements.",
+        "Image_name": "coming_soon.jpg\""
       }
     ]
   }
