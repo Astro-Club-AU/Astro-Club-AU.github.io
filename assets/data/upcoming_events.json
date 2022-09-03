@@ -12,13 +12,6 @@
     "type": "table",
     "name": "upcoming_events",
     "database": "epiz_30072944_ckeditor",
-    "data": [
-      {
-        "id": "9",
-        "Name": "Coming Soon",
-        "Description": "We are always here with exciting events. So be tuned and watch out for anouncements.",
-        "Image_name": "coming_soon.jpg"
-      }
-    ]
+    "data": []
   }
 ]
