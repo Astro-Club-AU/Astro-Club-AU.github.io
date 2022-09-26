@@ -14,6 +14,13 @@
     "database": "epiz_30072944_ckeditor",
     "data": [
       {
+        "id": "1",
+        "Name": "Abhisri.M",
+        "Description": "A third-year student who is currently studying ACTech B.tech leather technology. My passion for Astronomy started when I heard Twinkle, twinkle little star  rhymes for the first time. It lit my curiosity about various things such as where I live, why are the stars and moon hang in the sky only at night, and the sun in the morning. Then, I started to quench my thirst through books, videos, and TV channels like National Geographic, Discovery channel, etc. One fine day, I came across interesting news that Kalpana Chawla was the first Indian woman to go to space. I was super inspired that I wanted to share the same passion for astronomy and would like to follow her footpaths on becoming an astronaut. After having such thoughts, I started to pick up interest in cosmology, constellations, mythologies, and folklore associated with celestial bodies, other habitable planets, and missions related to intergalactic voyages, etc. To keep following my passion and meet people who share similar interests in space, I joined our Astro club of CEG. It allowed me to make contributions and learn many new things. ",
+        "Image_name": "31.jpg",
+        "Designation": "President"
+      },
+      {
         "id": "3",
         "Name": "M. Ashwin Kumar",
         "Description": "Considers science as a \"way-of-life\". Sustainability freak. Intends to lead a minimalistic lifestyle. Very conscious about waste disposal. Prefers to ride a bicycle than a BMW! Always eager to learn science to understand the inner workings of nature. A proud Linux user. Takes interest in Van Goghs. Likes to gaze at the stars and admire the infinite beauty that nature beholds. Believes that his infinitesimally insignificant contributions would help achieve \"<1.5\u00b0C\" .",
@@ -83,13 +90,7 @@
         "Image_name": "30.jpg",
         "Designation": "Social Media and Marketing Junior Executive"
       },
-      {
-        "id": "15",
-        "Name": "Abhisri.M",
-        "Description": "A third-year student who is currently studying ACTech B.tech leather technology. My passion for Astronomy started when I heard Twinkle, twinkle little star  rhymes for the first time. It lit my curiosity about various things such as where I live, why are the stars and moon hang in the sky only at night, and the sun in the morning. Then, I started to quench my thirst through books, videos, and TV channels like National Geographic, Discovery channel, etc. One fine day, I came across interesting news that Kalpana Chawla was the first Indian woman to go to space. I was super inspired that I wanted to share the same passion for astronomy and would like to follow her footpaths on becoming an astronaut. After having such thoughts, I started to pick up interest in cosmology, constellations, mythologies, and folklore associated with celestial bodies, other habitable planets, and missions related to intergalactic voyages, etc. To keep following my passion and meet people who share similar interests in space, I joined our Astro club of CEG. It allowed me to make contributions and learn many new things. ",
-        "Image_name": "31.jpg",
-        "Designation": "Social media and Marketing Executive Head"
-      },
+      
       {
         "id": "16",
         "Name": "Narendran G",
