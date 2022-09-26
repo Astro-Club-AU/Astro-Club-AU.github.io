@@ -21,6 +21,13 @@
         "Designation": "President"
       },
       {
+        "id": "2",
+        "Name": " Syed Junaid Ali B",
+        "Description": "I am pursuing my Computer science degree and always interested to learn new and innovative stuff. One is from the filed of computer science, another is space.",
+        "Image_name": "30.jpg",
+        "Designation": "Vice President"
+      },
+      {
         "id": "3",
         "Name": "M. Ashwin Kumar",
         "Description": "Considers science as a \"way-of-life\". Sustainability freak. Intends to lead a minimalistic lifestyle. Very conscious about waste disposal. Prefers to ride a bicycle than a BMW! Always eager to learn science to understand the inner workings of nature. A proud Linux user. Takes interest in Van Goghs. Likes to gaze at the stars and admire the infinite beauty that nature beholds. Believes that his infinitesimally insignificant contributions would help achieve \"<1.5\u00b0C\" .",
@@ -82,13 +89,6 @@
         "Description": "I am an astrophile and star gazing makes me feel so relaxed. I was always interested in space and I do believe that solving the mysteries of space is important as it might be of some use to solve the problems we have on Earth as well. As a student pursuing Biotechnology and my passion for space exploration makes me curious and want to learn more about the space biology and the space biotechnology which is a budding field.",
         "Image_name": "29.jpg",
         "Designation": "Junior Head of Events domain"
-      },
-      {
-        "id": "14",
-        "Name": " Syed Junaid Ali B",
-        "Description": "I am a second year CSE guy studying in CEG, Guindy, trying to explore more on artificial intelligence and machine learning. I am also a space enthusiast with an interest to know more on cosmology and science. I am a perfect extrovert with an introverted psychology. Trying to stay unique from the rest has been my hobby. Original since March 9 2002. My game is beyond pain. Neither my character nor my curiosity decreases. That is me. ",
-        "Image_name": "30.jpg",
-        "Designation": "Social Media and Marketing Junior Executive"
       },
       
       {
