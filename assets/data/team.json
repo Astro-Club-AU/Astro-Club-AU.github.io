@@ -49,6 +49,34 @@
         "Designation": "Senior Head of Design"
       },
       {
+        "id": "6",
+        "Name": "Puvis K",
+        "Description": "A sophomore majoring in Computer Science and Engineering. Enchanted by the vastness of space and the stars in it , I got curious to delve into  galactic and extragalactic astronomy. Daydreaming and stargazing from then till now C:",
+        "Image_name": "36.png",
+        "Designation": "Junior Head of Design"
+      },
+      {
+        "id": "7",
+        "Name": "Shiny R V",
+        "Description": "I love space; Not just because of it's infinite beauty, or the way it works with such well defined laws. I love space because it's the only thing that holds as many secrets as I do",
+        "Image_name": "37.png",
+        "Designation": "Senior Head of Editing"
+      },
+      {
+        "id": "8",
+        "Name": "Jayesh S",
+        "Description": "I am pursuing my undergraduate in biotechnology. I love to work as a team and solve problems. I find myself interested in astronomical observation.",
+        "Image_name": "34.jpg",
+        "Designation": "Junior Editing Head"
+      },
+      {
+        "id": "13",
+        "Name": "Aishwarya G",
+        "Description": "I am an astrophile and star gazing makes me feel so relaxed. I was always interested in space and I do believe that solving the mysteries of space is important as it might be of some use to solve the problems we have on Earth as well. As a student pursuing Biotechnology and my passion for space exploration makes me curious and want to learn more about the space biology and the space biotechnology which is a budding field.",
+        "Image_name": "29.jpg",
+        "Designation": "Junior Head of Events domain"
+      }, 
+      {
         "id": "20",
         "Name": "Sai Krishnan.S",
         "Description": "I am a keen lover of astronomy and I have been working in Astro club for the past 2 years. Astronomy has its own glory and it's discoveries oscillate every second. I am updating myself with the latest scientific information by reading various journals and research papers. I work really hard and strive towards excellence. I will always complete my work within the deadline & show my sincerity and dedication in whichever work I do.",
@@ -56,14 +84,14 @@
         "Designation": " Head of Events"
       },
       {
-        "id": "8",
+        "id": "81",
         "Name": "Suvetha Devi",
         "Description": "I am a 3rd year student studying M.sc integrated (Information Technology)-5 years programme.\r\nin CEG Guindy campus. I love to learn and explore more about Machine learning and Data science which is my field of study.\r\nBesides my exploration , I have interest in Design and also One of my hobbies is to keep starring at stars and space and wondering and thinking of it.\r\nSo, I thought for a chance to make my hobbies implemented officially. Fortunately, I get to know about Astro Club one year before. There I was able to implement my favorite hobbies and interests together. And so I travelled happily here for more than a year. I think  my interests and desires are getting fulfilled here. I am an introvert and I do not speak out anything but after an year of  travel, I think I have become an perfect extrovert.\r\nI think this much of  exploration and experience makes a great and precious footprints in My Life of journey.",
         "Image_name": "24.jpg",
         "Designation": " Executive Head of Design"
       },
       {
-        "id": "9",
+        "id": "91",
         "Name": "Sridhar M",
         "Description": "I am just an ordinary boy next door,ofcourse an engineering student,carrying astonishing dreams in me about the moons, stars and the infinite space itself.I like good books and movies that make me feel bad. I am not addicted to them but it is more like a drug to me.It may look like I am doing nothing, but in my head, I am very busy.Life can be very complicated sometimes that is why i always take the simple way out of it.",
         "Image_name": "25.jpg",
@@ -89,22 +117,8 @@
         "Description": "Two things always capture my attention. The way the universe unravels itself in front of our naked eyes and the way we have been unravelling its mysteries and communicating it through the generations, since time immemorial. Exhilarated that I could get the taste of both and contribute my part to the ever-growing astrophile community.",
         "Image_name": "28.png",
         "Designation": "Senior Technical Head"
-      },
-      {
-        "id": "13",
-        "Name": "Aishwarya G",
-        "Description": "I am an astrophile and star gazing makes me feel so relaxed. I was always interested in space and I do believe that solving the mysteries of space is important as it might be of some use to solve the problems we have on Earth as well. As a student pursuing Biotechnology and my passion for space exploration makes me curious and want to learn more about the space biology and the space biotechnology which is a budding field.",
-        "Image_name": "29.jpg",
-        "Designation": "Junior Head of Events domain"
-      },
-      
-      {
-        "id": "17",
-        "Name": "Jayesh S",
-        "Description": "I am pursuing my undergraduate in biotechnology. I love to work as a team and solve problems. I find myself interested in astronomical observation.",
-        "Image_name": "34.jpg",
-        "Designation": "Junior Editing Head"
       }
+      
     ]
   }
 ]
