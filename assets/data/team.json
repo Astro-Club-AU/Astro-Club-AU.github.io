@@ -52,14 +52,14 @@
         "id": "6",
         "Name": "Puvis K",
         "Description": "A sophomore majoring in Computer Science and Engineering. Enchanted by the vastness of space and the stars in it , I got curious to delve into  galactic and extragalactic astronomy. Daydreaming and stargazing from then till now C:",
-        "Image_name": "36.png",
+        "Image_name": "36.jpg",
         "Designation": "Junior Head of Design"
       },
       {
         "id": "7",
         "Name": "Shiny R V",
         "Description": "I love space; Not just because of it's infinite beauty, or the way it works with such well defined laws. I love space because it's the only thing that holds as many secrets as I do",
-        "Image_name": "37.png",
+        "Image_name": "37.jpg",
         "Designation": "Senior Head of Editing"
       },
       {
@@ -67,15 +67,22 @@
         "Name": "Jayesh S",
         "Description": "I am pursuing my undergraduate in biotechnology. I love to work as a team and solve problems. I find myself interested in astronomical observation.",
         "Image_name": "34.jpg",
-        "Designation": "Junior Editing Head"
+        "Designation": "Junior Head of Editing"
       },
       {
-        "id": "13",
+        "id": "9",
         "Name": "Aishwarya G",
         "Description": "I am an astrophile and star gazing makes me feel so relaxed. I was always interested in space and I do believe that solving the mysteries of space is important as it might be of some use to solve the problems we have on Earth as well. As a student pursuing Biotechnology and my passion for space exploration makes me curious and want to learn more about the space biology and the space biotechnology which is a budding field.",
         "Image_name": "29.jpg",
-        "Designation": "Junior Head of Events domain"
+        "Designation": "Senior Head of Events"
       }, 
+      {
+        "id": "10",
+        "Name": "Vishal R",
+        "Description": "Self-motivated individual with immense love for sciences. Space enthusiast with eyes fixed on stars. Loves stargazing whenever I feel low. Always been interested in the mysteries of the universe.",
+        "Image_name": "38.jpg",
+        "Designation": "Junior Head of Events"
+      },
       {
         "id": "20",
         "Name": "Sai Krishnan.S",
@@ -97,13 +104,7 @@
         "Image_name": "25.jpg",
         "Designation": "Senior Executive"
       },
-      {
-        "id": "10",
-        "Name": "Sayid Zafirah A",
-        "Description": "Content writer and a blogger, who is passionate about writing. Do not stress, if the job is assigned to me. Finds her solace by just diving into random thoughts.\r\nRelatable quote: Sleep enough, to never give up on your dreams.",
-        "Image_name": "26.jpg",
-        "Designation": "Junior Executive"
-      },
+      
       {
         "id": "11",
         "Name": "Sandhya G",
