@@ -90,13 +90,19 @@
         "Image_name": "29.jpg",
         "Designation": "Junior Head of Events domain"
       },
-      
       {
         "id": "16",
         "Name": "Narendran G",
         "Description": "Astrophile! If you think your life is meaningless, then know that we are living in a universe where we are of plank length significance. Enjoy it while you can!",
         "Image_name": "33.jpg",
         "Designation": "Junior Content Head"
+      },
+      {
+        "id": "17",
+        "Name": "Jayesh S",
+        "Description": "I am pursuing my undergraduate in biotechnology. I love to work as a team and solve problems. I find myself interested in astronomical observation.",
+        "Image_name": "34.jpg",
+        "Designation": "Junior Editing Head"
       }
     ]
   }
