@@ -29,20 +29,27 @@
       },
       {
         "id": "3",
-        "Name": "M. Ashwin Kumar",
-        "Description": "Considers science as a \"way-of-life\". Sustainability freak. Intends to lead a minimalistic lifestyle. Very conscious about waste disposal. Prefers to ride a bicycle than a BMW! Always eager to learn science to understand the inner workings of nature. A proud Linux user. Takes interest in Van Goghs. Likes to gaze at the stars and admire the infinite beauty that nature beholds. Believes that his infinitesimally insignificant contributions would help achieve \"<1.5\u00b0C\" .",
-        "Image_name": "22.jpg",
-        "Designation": "Secretary of Contents"
+        "Name": "Sarvesh",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet vehicula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, dolor et feugiat finibus, tellus sem dictum quam, vitae. ",
+        "Image_name": "coming_soon.jpg",
+        "Designation": "Senior Head of Contents"
       },
       {
         "id": "4",
-        "Name": "Vani Padmakumar",
-        "Description": "Even as a kid, one thing I always kept asking my mom as she held me on hip hop trying to feed me was about the vastness of the stars and the big cheese ball like object called the moon. It was something that I was always fascinated by mainly because of the great potential for exploration in that field. It\u00e2\u20ac\u2122s safe to say that we have just scratched the surface of the things that we can discover in space, from new planets to even scary aliens but as i have grown mature i wanted to know the ideas and theories behind stellar evolution, bigbang theory, etc cetera about which I have been wondering from my childhood.",
-        "Image_name": "32.jpg",
-        "Designation": "Junior head of design"
+        "Name": "Narendran G",
+        "Description": "Astrophile! If you think your life is meaningless, then know that we are living in a universe where we are of plank length significance. Enjoy it while you can!",
+        "Image_name": "33.jpg",
+        "Designation": "Junior Head of Contents"
       },
       {
         "id": "5",
+        "Name": "Nisha Pa",
+        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet vehicula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, dolor et feugiat finibus, tellus sem dictum quam, vitae. ",
+        "Image_name": "35.png",
+        "Designation": "Senior Head of Design"
+      },
+      {
+        "id": "20",
         "Name": "Sai Krishnan.S",
         "Description": "I am a keen lover of astronomy and I have been working in Astro club for the past 2 years. Astronomy has its own glory and it's discoveries oscillate every second. I am updating myself with the latest scientific information by reading various journals and research papers. I work really hard and strive towards excellence. I will always complete my work within the deadline & show my sincerity and dedication in whichever work I do.",
         "Image_name": "23.jpg",
@@ -90,13 +97,7 @@
         "Image_name": "29.jpg",
         "Designation": "Junior Head of Events domain"
       },
-      {
-        "id": "16",
-        "Name": "Narendran G",
-        "Description": "Astrophile! If you think your life is meaningless, then know that we are living in a universe where we are of plank length significance. Enjoy it while you can!",
-        "Image_name": "33.jpg",
-        "Designation": "Junior Content Head"
-      },
+      
       {
         "id": "17",
         "Name": "Jayesh S",
@@ -107,3 +108,4 @@
     ]
   }
 ]
+
