@@ -30,7 +30,7 @@
       {
         "id": "3",
         "Name": "Sarvesh",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet vehicula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, dolor et feugiat finibus, tellus sem dictum quam, vitae. ",
+        "Description": "I am an ardent astrophile who is obsessed with space.  I like to learn about various astronomical objects, particularly bizarre ones.  I feel that it is the conjunction of various domains which makes astronomy beautiful.",
         "Image_name": "coming_soon.jpg",
         "Designation": "Senior Head of Contents"
       },
@@ -75,7 +75,7 @@
         "Description": "I am an astrophile and star gazing makes me feel so relaxed. I was always interested in space and I do believe that solving the mysteries of space is important as it might be of some use to solve the problems we have on Earth as well. As a student pursuing Biotechnology and my passion for space exploration makes me curious and want to learn more about the space biology and the space biotechnology which is a budding field.",
         "Image_name": "29.jpg",
         "Designation": "Senior Head of Events"
-      }, 
+      },
       {
         "id": "10",
         "Name": "Vishal R",
@@ -118,8 +118,6 @@
         "Image_name": "42.jpg",
         "Designation": "Junior Technical Head"
       }
-      
     ]
   }
 ]
-
