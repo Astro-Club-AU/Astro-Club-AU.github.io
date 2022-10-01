@@ -44,8 +44,8 @@ $(document).ready(function() {
             document.getElementById('upevents').innerHTML += "<div class='col-md-6 col-lg-3 d-flex align-items-stretch' data-aos='fade-up' data-aos-delay='"+delay+"'>"+
             "<div class='icon-box icon-box-cyan'>"+
                 "<div><img src='assets/img/upcoming_events/"+value.Image_name+"' class='event-picture'></div>"+
-                "<h4 class='title'><a href=''>'"+value.Name+"'</a></h4>"+
-                "<p class='description'>'"+value.Description+"'</p>"+
+                "<h4 class='title'><a href=''>"+value.Name+"</a></h4>"+
+                "<p class='description'>"+value.Description+"</p>"+
             "</div></div>";
             delay+=10;
         }) 
@@ -106,9 +106,9 @@ $(document).ready(function() {
                 "<img src='assets/img/team/"+value.Image_name+"' class='img-fluid' alt=''>"+
               "</div>"+
               "<div class='member-info'>"+
-                "<h4>'"+value.Name+"'</h4>"+
-                "<span>'"+value.Designation+"'</span>"+
-                "<p>'"+value.Description+"'</p>"+
+                "<h4>"+value.Name+"</h4>"+
+                "<span>"+value.Designation+"</span>"+
+                "<p>"+value.Description+"</p>"+
               "</div></div></div>";
           
         }) 
