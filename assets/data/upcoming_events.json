@@ -12,7 +12,9 @@
     "type": "table",
     "name": "upcoming_events",
     "database": "epiz_30072944_ckeditor",
-    "data": []
+    "data": [
+      {"id": 4,"Name": "Stay tuned!", "Description": "New, exciting events are coming soon.","Image_name":"coming_soon.jpg"}
+    ]
   },
   {"id": 4,"Name": "Stay tuned!", "Description": "New, exciting events are coming soon.","Image_name":"coming_soon.jpg"}
 ]
